@@ -1,0 +1,43 @@
+body {
+    background-color: #ddd;
+    font-size: 20px;
+}
+/* # is for referring to an id */
+#content {
+    max-width: 60%;
+    border: 1px solid darkgrey;
+    /* centers it by giving left and right an equal amount of space */
+    margin: 40 auto;
+    padding: 50px;
+}
+/* This is affecting the paragraph of text */
+p {
+    color: #035f9c;
+    font-size: 1.3em;
+}
+/* This is a horizontal rule */
+hr {
+    height: 3px;
+    background-color: #035f9c;
+    width: 80%;
+    margin-top: 50px
+}
+/* Selecting all h1s, h2s, and paragraphs */
+h1, h2, p {
+    text-align: center;
+}
+/* Keeps imgs from looking funky as page is resized */
+img {
+    width: 50%;
+    display: block;
+    margin: 50px auto;
+}
+#topics {
+    line-height: 1.5em;
+    margin: 0 auto;
+    width: 65%;
+}
+/* . is how you target classes */
+.list {
+    list-style-type: none;
+}
