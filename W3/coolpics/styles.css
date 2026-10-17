@@ -61,10 +61,6 @@ nav a:hover {
     grid-template-columns: 1fr 1fr;
   }
 
-  nav.hidden a {
-    display: inline;
-    
-  }
   nav {
     text-align: center;
     word-spacing: 20px;
@@ -74,10 +70,10 @@ nav a:hover {
   .gallery {
     grid-template-columns: 1fr 1fr 1fr;
   }
-  .menu-btn {
-    display: none;
-  }
-  nav a {
+    nav.hidden a {
     display: inline;
+  }
+    .menu-btn {
+    display: none;
   }
 }
