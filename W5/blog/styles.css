@@ -1,0 +1,86 @@
+header {
+    text-align: center;
+    padding: 10px 1px;
+}
+.hidden {
+    height: 50px;
+    border-bottom: 1.5px solid orange;
+}
+.title-text {
+    display: block;
+    font-size: 2em;
+    padding-bottom: 20px;
+    border-bottom: 1.5px solid orange;
+    font-weight: bold;
+}
+nav {
+    display: block;
+    text-align: right;
+    font-size: 1.2em;
+    word-spacing: 40px;
+    padding: 15px 40px;
+    border-bottom: 1.5px solid orange;
+}
+nav a {
+    color: rgb(159, 3, 57);
+    text-decoration: none;
+}
+
+#content {
+    display: grid;
+
+}
+#book-info {
+    grid-column: 3;
+    text-align: right;
+    padding-right: 40px;
+}
+.date {
+    font-style: italic;
+}
+h1 {
+    text-align: center;
+    color: rgb(159, 3, 57);
+}
+.book img {
+    display: block;
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.desc {
+    margin: 0 auto;
+    padding: 0px 20px 20px 20px;
+}
+footer {
+    border-top: 1.5px solid orange;
+    text-align: center;
+    padding: 10px
+}
+@media screen and (min-width: 600px) {
+    .book {
+        display: grid;
+        grid-template-columns: 0.5fr 1.5fr;
+        padding-top: 50px
+    }
+
+    #book-info {
+        grid-column: 1;
+        border-right: 1.5px solid orange;
+        box-sizing: border-box;
+    }
+    .book-sec {
+        grid-column: 2;
+        padding-bottom: 50px;
+    }
+
+    h1 {
+        text-align: left;
+        padding-left: 50px;
+    }
+    .hidden {
+        display: none;
+    }
+}
+
+/* Remember you are using grid, probably want to use for whole page */
