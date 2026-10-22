@@ -42,7 +42,7 @@ h1 {
     text-align: center;
     color: rgb(159, 3, 57);
 }
-.book img {
+#book img {
     display: block;
     max-width: 70%;
     margin: 0 auto;
@@ -58,7 +58,7 @@ footer {
     padding: 10px
 }
 @media screen and (min-width: 600px) {
-    .book {
+    #book {
         display: grid;
         grid-template-columns: 0.5fr 1.5fr;
         padding-top: 50px
@@ -69,7 +69,7 @@ footer {
         border-right: 1.5px solid orange;
         box-sizing: border-box;
     }
-    .book-sec {
+    #book-sec {
         grid-column: 2;
         padding-bottom: 50px;
     }
