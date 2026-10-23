@@ -39,8 +39,6 @@ const books = [
 	}
 ]
 
-
-
 const body = document.querySelector("#book");
 books.forEach(book => {
     let bookSummary = `
