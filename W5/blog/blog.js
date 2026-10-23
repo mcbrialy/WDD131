@@ -44,7 +44,18 @@ const books = [
 const body = document.querySelector("#book");
 books.forEach(book => {
     let bookSummary = `
-        
+        <div id="book-info">
+			<p class="date">${book.title}</p>
+			<p class="age-rating">${book.ages}</p>
+			<p class="genre">${book.genre}</p>
+			<p class="star-rating">${book.stars}</p>
+		</div>
+		<section class="book-sec">
+            <h1 class="book-title">${book.title}</h1>
+            <img src="${book.imgSrc}" alt="${book.imgAlt}">
+            <p class="desc">${book.description}</p>
+        </section>
     `;
-
+	body.innerHTML += bookSummary;
 })
+
